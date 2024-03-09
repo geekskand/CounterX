@@ -107,7 +107,7 @@ const [Maths, setMaths] = useState(""); // Initialize with an empty string
       <div>
         <img src={viteLogo} className="logo" alt="Vite logo" />
       </div>
-      <h1 style={{ filter: "invert(100%)", color: colors[count] }}>Counter</h1>
+      <h1 style={{ filter: "invert(100%)", color: colors[count] }}>CounterX</h1>
       <h2 style={{ fontSize: count+20, color: colors[count + 5], filter: "invert(100%)" }}>{count}</h2>
       <div className="card" style={{ color: colors[count] }}>
         <button style={{margin: "0 10px"}} onClick={() => setCount(count < 50 ? count + 1 : alert('You cannot increment above 20'))}>
